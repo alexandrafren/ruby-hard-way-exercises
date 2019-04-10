@@ -5,9 +5,11 @@ my_weight = 160
 my_eyes = "Brown"
 my_teeth = "White"
 my_hair = "Black"
+my_height_in_centimeters = my_height * 2.54
 
 puts "Let's talk about #{my_name}"
 puts "She's #{my_height} inches tall."
+puts "She's #{my_height_in_centimeters} centimeters tall."
 puts "She's #{my_weight} pounds heavy."
 puts "Actually, that's not too heavy."
 puts "She's got #{my_eyes} eyes and #{my_hair} hair."
